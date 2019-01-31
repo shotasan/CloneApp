@@ -12,8 +12,9 @@
   <% end %>
 
   <div class="content">
-    <%= form.label :"投稿" %>
-    <%= form.text_area :content, size: "50x10", placeholder: "140文字以内で入力してください" %>
+    <%= form.label :"入力欄" %>
+    <br>
+    <%= form.text_area :content, size: "100x10", placeholder: "140文字以内で入力してください" %>
   </div>
  
    <span class = "button"><%= form.submit name="投稿する" %></span>
